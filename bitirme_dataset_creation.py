@@ -82,8 +82,8 @@ class Video2Dataset:
             video.release()
 
 
-Video2Dataset(train_test_split_ratio=1, period=1.5, square_size=128, \
-              video_folder='/home/alperenlcr/bitirme/villages_islands/train', dataset_folder='/home/alperenlcr/bitirme/village_dataset_independent')
+# Video2Dataset(train_test_split_ratio=1, period=1.5, square_size=128, \
+#               video_folder='/home/alperenlcr/bitirme/villages_islands/train', dataset_folder='/home/alperenlcr/bitirme/village_dataset_independent')
 
-Video2Dataset(train_test_split_ratio=0, period=0.33, square_size=128, \
-              video_folder='/home/alperenlcr/bitirme/villages_islands/test', dataset_folder='/home/alperenlcr/bitirme/village_dataset_independent')
+# Video2Dataset(train_test_split_ratio=0, period=0.33, square_size=128, \
+#               video_folder='/home/alperenlcr/bitirme/villages_islands/test', dataset_folder='/home/alperenlcr/bitirme/village_dataset_independent')

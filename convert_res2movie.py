@@ -1,3 +1,8 @@
+"""
+This code is usefull when result frames saved as images in a folder.
+This code combines these images and convert them to a movie. 
+"""
+
 import cv2
 import numpy as np
 
@@ -5,7 +10,7 @@ movie_path = "/home/alperenlcr/bitirme/full_dependent.mp4"
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(movie_path, fourcc, 1/0.2, (128, 128))
 for i in range(1, 246):
-        
+
     res_path = f"/home/alperenlcr/bitirme/results_dependent{i}.png"
 
     images = cv2.imread(res_path) # this is a combined image
